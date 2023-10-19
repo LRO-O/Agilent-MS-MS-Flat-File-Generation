@@ -24,7 +24,7 @@ ui <- fluidPage(
     mainPanel(
       #Parameter input
       h4("Write in Input Parameters"),
-      textInput("FilePath", label = "File Path to Folder with Exported Files (e.g. E:/Documents/Exposrted_csv_files):"),
+      textInput("FilePath", label = "File Path to Folder with Exported Files (e.g. E:/Documents/Exported_csv_files):"),
       textInput("Author", label = "Enter Author Name:"),
       textInput("LicenseType", label = "License (e.g. CC0):"),
       textInput("Date", label = "Date of Experiment (e.g. YYYY.MM.DD):"),
